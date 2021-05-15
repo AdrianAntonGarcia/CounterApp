@@ -5,7 +5,9 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 // import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 // import {DimensionesScreen} from './src/screens/DimensionesScreen';
 // import {PositionScreen} from './src/screens/PositionScreen';
-import {FlexScreen} from './src/screens/FlexScreen';
+// import {FlexScreen} from './src/screens/FlexScreen';
+// import {Tarea1Screen} from './src/screens/Tarea1Screen';
+import {Tarea2Screen} from './src/screens/Tarea2Screen';
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       {/* <BoxObjectModelScreen /> */}
       {/* <DimensionesScreen /> */}
       {/* <PositionScreen /> */}
-      <FlexScreen />
+      {/* <FlexScreen /> */}
+      {/* <Tarea1Screen /> */}
+      <Tarea2Screen />
     </SafeAreaView>
   );
 };
@@ -25,5 +29,6 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#28425B',
   },
 });
