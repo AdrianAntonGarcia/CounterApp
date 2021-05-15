@@ -7,7 +7,8 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 // import {PositionScreen} from './src/screens/PositionScreen';
 // import {FlexScreen} from './src/screens/FlexScreen';
 // import {Tarea1Screen} from './src/screens/Tarea1Screen';
-import {Tarea2Screen} from './src/screens/Tarea2Screen';
+// import {Tarea2Screen} from './src/screens/Tarea2Screen';
+import {Tarea3Screen} from './src/screens/Tarea3Screen';
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
       {/* <PositionScreen /> */}
       {/* <FlexScreen /> */}
       {/* <Tarea1Screen /> */}
-      <Tarea2Screen />
+      {/* <Tarea2Screen /> */}
+      <Tarea3Screen />
     </SafeAreaView>
   );
 };
