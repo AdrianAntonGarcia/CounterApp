@@ -11,27 +11,33 @@ export const FlexScreen = () => {
   );
 };
 
+// row, los elementos se ordenan en fila - - -
+// column, los elementos se ordenan en columna  -
+//                                              -
+//                                              -
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // height: 600,
     backgroundColor: '#28C4D9',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
   },
   caja1: {
-    flex: 3,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'green',
   },
   caja2: {
-    flex: 2,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'blue',
   },
   caja3: {
-    flex: 1,
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
