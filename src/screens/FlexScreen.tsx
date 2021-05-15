@@ -7,6 +7,27 @@ export const FlexScreen = () => {
       <Text style={styles.caja1}>Caja 1</Text>
       <Text style={styles.caja2}>Caja 2</Text>
       <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
+      <Text style={styles.caja1}>Caja 1</Text>
+      <Text style={styles.caja2}>Caja 2</Text>
+      <Text style={styles.caja3}>Caja 3</Text>
     </View>
   );
 };
@@ -18,32 +39,37 @@ export const FlexScreen = () => {
 
 // Ajustar su propio contenido ignorando lo que diga el padre => align-self
 
+// FlexWrap: Que hacer cuando los hijos son más grandes que el padre, no caben
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     // height: 600,
     backgroundColor: '#28C4D9',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
     flexDirection: 'row',
+    flexWrap: 'wrap',
   },
   caja1: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'green',
-    alignSelf: 'center',
+    // alignSelf: 'center',
   },
   caja2: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'blue',
-    alignSelf: 'flex-start',
+    // alignSelf: 'flex-start',
   },
   caja3: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'yellow',
-    alignSelf: 'flex-end',
+    // alignSelf: 'flex-end',
   },
 });
