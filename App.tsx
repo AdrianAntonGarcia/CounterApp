@@ -14,7 +14,8 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 // import {Tarea6Screen} from './src/screens/Tarea6Screen';
 // import {Tarea7Screen} from './src/screens/Tarea7Screen';
 // import {Tarea8Screen} from './src/screens/Tarea8Screen';
-import {Tarea9Screen} from './src/screens/Tarea9Screen';
+// import {Tarea9Screen} from './src/screens/Tarea9Screen';
+import {Tarea10Screen} from './src/screens/Tarea10Screen';
 
 const App = () => {
   return (
@@ -33,7 +34,8 @@ const App = () => {
       {/* <Tarea6Screen /> */}
       {/* <Tarea7Screen /> */}
       {/* <Tarea8Screen /> */}
-      <Tarea9Screen />
+      {/* <Tarea9Screen /> */}
+      <Tarea10Screen />
     </SafeAreaView>
   );
 };
