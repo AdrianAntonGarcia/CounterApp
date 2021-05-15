@@ -16,31 +16,34 @@ export const FlexScreen = () => {
 //                                              -
 //                                              -
 
+// Ajustar su propio contenido ignorando lo que diga el padre => align-self
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     // height: 600,
     backgroundColor: '#28C4D9',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end',
   },
   caja1: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'green',
+    alignSelf: 'center',
   },
   caja2: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'blue',
+    alignSelf: 'flex-start',
   },
   caja3: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
     backgroundColor: 'yellow',
+    alignSelf: 'flex-end',
   },
 });
